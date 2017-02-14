@@ -1,0 +1,79 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+button{
+	background-color: #FFCB2F; 
+	font-weight: bold;
+}
+/*.overlay{
+	width: 100%;
+	height: 100vh;
+	background: rgba(0,0,0,0.5);
+	position: absolute;
+	top: 0;
+	left: 0;
+}*/
+
+.header{
+	text-align: center;
+	width: 100%;
+	height: 100vh;
+	position: relative;
+	background: linear-gradient(rgba(27, 26, 23, 0.40),rgba(0, 0, 0, 0.40)), url('weather-forecast-london-uk-1280x800.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+}
+.search {
+	text-align: center;
+	margin-right: 25%;
+	/*border:2px solid red;*/
+	padding-top: 100px;
+
+}
+input{
+	
+	background: black;
+	width: 30%;
+	height: 30px;
+	font-size: 25px;
+	color: coral;
+	border-radius: 30px;
+	border-top: transparent;
+	border-right: transparent;
+	border-left: transparent;
+	
+}
+textarea:focus, input:focus{
+    outline: none;
+}
+label{
+	font-size: 40px;
+}
+
+textarea { text-align: center; } input { text-align: center; } 
+button{ 
+	border-radius: 30px;
+	background: coral;
+	width: 200px;
+	font-size: 30px;
+	font-weight: bold;
+	height: 35px;
+	border: none;
+	border-bottom: 2px solid #ac4829;
+	color: white;
+	font-weight: bolder;
+	cursor: pointer;
+}
+button:focus, input:focus{
+	outline: none;
+}
+.result{
+	margin-left: 50%;
+	margin-top: 10%;
+	text-align: center;
+}
+span{
+	font-size: 40px;
+	color: white;
+}
